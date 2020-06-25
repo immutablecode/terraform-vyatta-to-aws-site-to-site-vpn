@@ -9,7 +9,7 @@ resource "aws_vpc" "work" {
 }
 
 module "home_to_work_vpn" {
-  source = "git@github.com:immutablecode/terraform_vyatta_to_aws_site_to_site_vpn.git"
+  source = "git@github.com:immutablecode/terraform-vyatta-to-aws-site-to-site-vpn.git"
   
   vpn_name = "Home2Work"
   
